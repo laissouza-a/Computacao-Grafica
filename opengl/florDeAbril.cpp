@@ -153,7 +153,7 @@ int main() {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_COMPAT_PROFILE);
 
     // Create a GLFW window
-    GLFWwindow* window = glfwCreateWindow(winWidth, winHeight, "Turbine Simulation", nullptr, nullptr);
+    GLFWwindow* window = glfwCreateWindow(winWidth, winHeight, "Windmill Simulation", nullptr, nullptr);
     if (!window) {
         std::cerr << "Failed to create GLFW window" << std::endl;
         glfwTerminate();

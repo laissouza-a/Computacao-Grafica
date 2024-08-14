@@ -8,10 +8,10 @@ CXXFLAGS = -Wall -std=c++11
 LIBS = -lglfw -lGL -lGLEW
 
 # Executable name
-TARGET = flor
+TARGET = executableName
 
 # Source files
-SRCS = florDeAbril.cpp
+SRCS = fileName.cpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)
